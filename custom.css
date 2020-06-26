@@ -1,0 +1,46 @@
+@import url("../css/legacy.css"); /* Don't remove this line! */
+
+/*
+Default Simple Blue theme for Domoticz
+*/
+body {
+
+
+@font-face {
+	font-family: "OpenSans";
+	font-style: normal;
+	src: url('fonts/OpenSans.ttf');
+	src: local('OpenSans'), url('fonts/OpenSans.ttf') format('truetype');
+}
+@font-face {
+	font-family: "DroidSans";
+	font-style: normal;
+	src: url('fonts/DroidSans.ttf');
+	src: local('DroidSans'), url('fonts/DroidSans.ttf') format('truetype');
+}
+body {
+	background: #202020 url(images/domoticz.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#appversion:after {
+	content: " Theme by huizebruin.nl";
+	display: none;
+}
+#status:before {
+	font-weight: normal;
+}
+
+background-image: -o-linear-gradient(bottom, #120B8F 0%, #4E89E6 50%, #120B8F 100%);
+background-image: -moz-linear-gradient(bottom, #120B8F 0%, #4E89E6 50%, #120B8F 100%);
+background-image: -webkit-linear-gradient(bottom, #120B8F 0%, #4E89E6 50%, #120B8F 100%);
+background-image: -ms-linear-gradient(bottom, #120B8F 0%, #4E89E6 50%, #120B8F 100%);
+background-image: linear-gradient(to bottom, #120B8F 0%, #4E89E6 50%, #120B8F 100%)
+}
+
+.warning-text {
+	color: yellow;
+}
